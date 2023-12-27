@@ -1182,4 +1182,150 @@ swiper-slide {
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+}
+
+.signup {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 140px;
+  font-family: Poppins;
+  align-items: center;
+}
+.signup .signup-text form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 129px;
+  gap: 30px;
+}
+.signup .signup-text form h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.44px;
+}
+.signup .signup-text form p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.signup .signup-text form input {
+  width: 370px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.signup .signup-text form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 371px;
+  height: 56px;
+  border: none;
+}
+.signup .signup-text form .signup__button button:nth-child(1) {
+  margin-bottom: 16px;
+  background: #db4444;
+  color: #fff;
+}
+.signup .signup-text form .signup__button button:nth-child(1):hover {
+  background-color: #E07575;
+  cursor: pointer;
+}
+.signup .signup-text form .signup__button button:nth-child(2) {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+.signup .signup-text form .signup-link {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.signup .signup-text form .signup-link p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
+}
+.signup .signup-text form .signup-link a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  opacity: 0.5;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.login {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 140px;
+  font-family: Poppins;
+  align-items: center;
+}
+.login .login-text form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 129px;
+  gap: 30px;
+}
+.login .login-text form h1 {
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.44px;
+}
+.login .login-text form p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.login .login-text form input {
+  width: 370px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.login .login-text form button {
+  width: 143px;
+  height: 56px;
+  border: none;
+}
+.login .login-text form .login__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login .login-text form .login__button button:nth-child(1) {
+  margin-bottom: 16px;
+  background: #db4444;
+  color: #fff;
+}
+.login .login-text form .login__button button:nth-child(1):hover {
+  background-color: #E07575;
+  cursor: pointer;
+}
+.login .login-text form .login__button span a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #DB4444;
 }/*# sourceMappingURL=style.css.map */

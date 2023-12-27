@@ -1,0 +1,72 @@
+#browse , #products{
+
+
+    h1 {
+        display: flex;
+        gap: 10px;
+        color: #db4444;
+        font-size: 16px;
+        font-family: Poppins;
+        align-items: center;
+      }
+
+      .pre-cards{
+        display: flex;
+        justify-content: space-between;
+
+        .today-timer{
+            h2{
+                font-size: 36px;
+                font-family: Inter;
+                font-weight: 600;
+                letter-spacing: 1.44px;
+            }
+        }
+      }
+      .two-arrow{
+        display: flex;
+        gap: 15px;
+    
+        div{
+            background: #F5F5F5;
+            padding: 15px;
+            border-radius: 100%;
+        }
+      }
+    
+      .browse-cards{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+
+        .browse__card{
+            padding: 25px 40px;
+            text-align: center;
+
+            .browse_clock-white{
+                display: none;
+            }
+
+            &:hover{
+                background-color: #db4444;
+                border-radius: 4px;
+                color:#FFF;
+                .browse_clock-white{
+                    display: inline-block;
+                }
+                .browse_clock-black{
+                    display: none;
+                }
+
+                svg{
+                    path , line{
+                        stroke: #FFF;
+                    }
+                }
+            }
+
+
+            }
+        }
+      }

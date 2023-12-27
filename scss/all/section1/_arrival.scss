@@ -1,0 +1,206 @@
+#arrival {
+  h1 {
+    display: flex;
+    color: #db4444;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .pre-grid {
+    h2 {
+      font-family: Inter;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 48px;
+      letter-spacing: 1.44px;
+      margin-bottom: 60px;
+    }
+  }
+
+  .arrival-grid {
+    display: grid;
+    height: 600px;
+    width: 1170px;
+
+    grid-template-areas:
+      "a  a  b  b"
+      "a  a  b  b"
+      "a  a  c  d"
+      "a  a  c  d";
+    gap: 10px;
+    color: #fff;
+    padding: 10px;
+
+    &__first {
+      grid-area: a;
+      background: #000;
+      background-image: url(../../../assets/images/ps5-slim-goedkope-playstation_large\ 1.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
+
+      &--text {
+        margin-top: 420px;
+        margin-left: 32px;
+
+        h1 {
+          color: #fafafa;
+          font-family: Inter;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0.72px;
+        }
+        p {
+          width: 242px;
+          color: var(--Text, #fafafa);
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 21px;
+        }
+        button {
+          background: transparent;
+          color: white;
+          border: none;
+          border-bottom: 1px solid #ffffff;
+          font-size: 16px;
+          font-family: Poppins;
+          margin-top: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+    &__second {
+      grid-area: b;
+      background: #0d0d0d;
+      background-image: url(../../../assets/images/attractive-woman-wearing-hat-posing-black-background\ 1.png);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      height: 286px;
+
+      &--text {
+        padding: 24px;
+        margin-top: 100px;
+
+        h1 {
+          color: #fafafa;
+          font-family: Inter;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0.72px;
+        }
+        p {
+          width: 255px;
+          color: #fafafa;
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 21px;
+        }
+        button {
+          background: transparent;
+          color: white;
+          border: none;
+          border-bottom: 1px solid #ffffff;
+          font-size: 16px;
+          font-family: Poppins;
+          margin-top: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+    &__third {
+      grid-area: c;
+      background: #000;
+      background-image: url(../../../assets/images/69-694768_amazon-echo-png-clipart-transparent-amazon-echo-png\ 1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 284px;
+
+      &--text {
+        padding: 24px;
+        margin-top: 130px;
+
+        h1 {
+          color: #fafafa;
+          font-family: Inter;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0.72px;
+        }
+        p {
+          color: #fafafa;
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 21px;
+        }
+        button {
+          background: transparent;
+          color: white;
+          border: none;
+          border-bottom: 1px solid #ffffff;
+          font-size: 16px;
+          font-family: Poppins;
+          margin-top: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+    &__fourth {
+      grid-area: d;
+      background: #000;
+      background-image: url(../../../assets/images/652e82cd70aa6522dd785109a455904c.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 284px;
+
+      &--text {
+        padding: 24px;
+        margin-top: 130px;
+
+        h1 {
+          color: #fafafa;
+          font-family: Inter;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0.72px;
+        }
+        p {
+          color: #fafafa;
+          font-family: Poppins;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 21px;
+        }
+        button {
+          background: transparent;
+          color: white;
+          border: none;
+          border-bottom: 1px solid #ffffff;
+          font-size: 16px;
+          font-family: Poppins;
+          margin-top: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

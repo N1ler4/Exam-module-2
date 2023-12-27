@@ -1,0 +1,43 @@
+#month{
+
+
+
+    h1 {
+        display: flex;
+        gap: 10px;
+        color: #db4444;
+        font-size: 16px;
+        font-family: Poppins;
+        align-items: center;
+      }
+
+      .pre-cards{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+
+        .today-timer{
+            h2{
+                font-size: 36px;
+                font-family: Inter;
+                font-weight: 600;
+                letter-spacing: 1.44px;
+            }
+        }
+
+        .month-button{
+          button{
+            padding: 16px 48px;
+            background: #DB4444;
+            border: none;
+            color:#FFF;
+            border-radius: 4px;
+
+            &:hover{
+              background:#E07575;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+}

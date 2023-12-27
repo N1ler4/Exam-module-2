@@ -1,0 +1,33 @@
+#pre-footer {
+
+    margin-top: 140px;
+    margin-bottom: 40px;
+
+  .pre-footer__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+
+    div {
+      text-align: center;
+
+      h4 {
+        margin-top: 24px;
+        margin-bottom: 8px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+      }
+    }
+  }
+}
